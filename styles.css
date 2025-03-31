@@ -43,7 +43,7 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 25px;
-    font-size: 12px;
+    font-size: 18px;
     margin-right: 22%;
     margin-left: auto;
 }
@@ -51,7 +51,7 @@ ul {
 .header p {
     color: #f9faf8;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 22%;
 }
 
@@ -75,16 +75,37 @@ ul {
 .splash img {
     max-width: 20%;
     height: auto;
+    margin-right: 22%;
+}
+
+.splash-left {
+    display:flex;
+    flex-direction: column;
+    margin-left: 22%;
+    gap: 10px;
 }
 
 .splash-left h1 {
     color:#f9faf8;
     font-size: 48px;
+    margin: 0;
 }
 
-.splash-left p{
+.splash-left p {
+    margin: 0;
     color:#e5e7eb;
     font-size: 18px;
+}
+
+.splash-left button {
+    margin: 0;
+    background-color: #3882f6;
+    width: 120px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    color:#f9faf8;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /*splash*/
