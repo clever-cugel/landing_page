@@ -46,6 +46,10 @@ ul {
     font-size: 18px;
     margin-right: 22%;
     margin-left: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
 
 .header p {
@@ -53,10 +57,6 @@ ul {
     font-weight: 900;
     font-size: 25px;
     margin-left: 22%;
-}
-
-.header ul {
-    color: #e5e7eb;
 }
 
 /*header*/
@@ -101,7 +101,7 @@ ul {
     margin: 0;
     background-color: #3882f6;
     width: 120px;
-    border-radius: 10px;
+    border-radius: 8px;
     border-color: #3882f6;
     color:#f9faf8;
     font-size: 18px;
@@ -109,3 +109,49 @@ ul {
 }
 
 /*splash*/
+
+/*info*/
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.info ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+}
+
+.info li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 15%;
+    gap: 5px;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 7px;
+    border: solid #3882f6 5px;
+}
+
+.info p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*info*/
