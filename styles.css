@@ -67,9 +67,10 @@ ul {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    min-height: 300px; /*Having a set hight was what was preventing this from flexing*/
     background-color: #1f2937;
     gap: 50px;
+    padding-bottom: 30px;
 }
 
 .splash img {
@@ -119,6 +120,8 @@ ul {
     align-items: center;
     margin-top: 10px;
     gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 80px;
 }
 
 .info ul {
@@ -155,3 +158,82 @@ ul {
 }
 
 /*info*/
+
+/*quote*/
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+
+#q {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#p {
+    align-self: flex-end;
+    margin-right: 30%;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+/*quote*/
+
+/*end*/
+
+.contain {
+    display:flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 22%;
+    margin-left: 22%;
+    min-height: 200px;
+}
+
+.lefto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    gap: 5px;
+}
+
+.end p, h2 {
+    margin: 0;
+    color:#f9faf8;
+}
+
+.end h2 {
+    font-size: 25px;
+}
+
+.end p {
+    font-size: 18px;
+}
+
+.end button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color:#f9faf8;
+    margin-right: 50px;
+    margin-left: auto;
+    min-width: 120px;
+    align-self: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+/*end*/
